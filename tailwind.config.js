@@ -13,15 +13,18 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-      colors: {
-        'grays': '#595959'
+      animation: {
+        avatar: 'avatar 3s infinite'
       },
     },
     colors: {
       ...colors,
+      'grays': '#595959',
       primary: colors.red,
       secondary: colors.pink,
     },
   },
   plugins: [],
 };
+
+

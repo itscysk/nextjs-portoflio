@@ -17,7 +17,7 @@ const HeroSection = () => {
         >
           <h1 className=" mb-4 text-1xl  sm:text-1xl lg:text-8xl lg:leading-normal font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
             <span className="text-grays  relative top-10  lg:text-4xl  ">
-              Czesc! jestem
+              Czesc!
             </span>
             <br></br>
             <TypeAnimation
@@ -46,11 +46,11 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[300px] lg:h-[300px]  relative">
+          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[300px] lg:h-[300px]  relative animate-avatar">
             <Image
               src="/images/avatar.png"
               alt="hero image"
-              className="absolute transform rounded-full  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              className="absolute transform rounded-full  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 shadow-lg"
               width={300}
               height={300}
             />
