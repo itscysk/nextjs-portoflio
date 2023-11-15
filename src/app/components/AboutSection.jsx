@@ -46,7 +46,7 @@ const AboutSection = () => {
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image src="/images/avatar.png" alt="elo" width={500} height={500} className="transform rounded-full animate-avatar"/>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+          <h2 className="text-4xl font-bold  mb-4 w-[15rem] bg-clip-text  text-transparent bg-grays rounded-full from-primary-400 to-secondary-600 bg-gradient-to-r ">About Me</h2>
           <p className="text-base lg:text-lg">
             Jestem Front-End developerem, uwielbiam tworzyc strony internetowe zaawansowane jak i mało zaawansowane.
             Staram sie aby każda miała responsywność oraz certyfikat, by zapewnić każdemu bezpieczenstwo.
