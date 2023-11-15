@@ -15,9 +15,9 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              Witaj, jestem
+          <h1 className=" mb-4 text-1xl  sm:text-1xl lg:text-8xl lg:leading-normal font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
+            <span className="text-grays  relative top-10  lg:text-4xl  ">
+              Czesc! jestem
             </span>
             <br></br>
             <TypeAnimation
@@ -46,7 +46,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[300px] lg:h-[300px]  relative">
             <Image
               src="/images/avatar.png"
               alt="hero image"
