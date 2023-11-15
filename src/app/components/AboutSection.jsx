@@ -24,7 +24,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>1-klasa szkoły o profilu programistycznym</li>
+        <li>1-klasa szkoły ponadpodstawowej o profilu technika programisty</li>
+        <li>2-klasa szkoły ponadpodstawowej o profilu technika programisty</li>
       </ul>
     ),
   },
