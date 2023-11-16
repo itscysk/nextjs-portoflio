@@ -88,22 +88,22 @@
     return (
       <section
         id="contact"
-        className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative"
+        className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative text-left sm:text-left"
       >
-        <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
-        <div className="z-10">
+        <div className=" from-primary-900 to-transparent rounded-full h-80 w-80  blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
+        <div className="">
           <h5 className="text-[2rem] font-bold  my-2 relative top-[10rem]  w-[20rem] text-transparent bg-clip-text bg-grays rounded-full from-primary-400 to-secondary-600 bg-gradient-to-r">Contact with me </h5>
           <p className="text-[#ADB7BE] mb-4 max-w-md relative top-[9rem]">
           Do you want to collaborate or contact with me? You can use contact form or email/one of social media.
           </p>
           <div className="socials flex-row gap-2 text-base">
             <p href="" onClick={() => copyText(textRef1)}>
-              <Image src={discord} alt="cysk_discord" className="relative top-[9rem]" />
+              <Image src={discord} alt="cysk_discord" className="relative mt-[50px] md:mt-0 top-[9rem]" />
               <h2 className=" relative top-[4.3rem] left-[6rem] text-2xl font-semibold cursor-pointer w-[6rem] bg-clip-text  text-transparent bg-grays rounded-full from-primary-400 to-secondary-600 bg-gradient-to-r" id="text1" onClick={() => copyText(textRef1)}>Discord</h2>
               <h3 className="text-white relative top-[4.1rem] left-[6rem] text-2xl font-normal cursor-pointer " ref={textRef1}>faceandface</h3>
             </p>
             <p onClick={() => copyText(textRef2)}>
-              <Image src={email} alt="cysk_email" className="absolute top-[28rem] cursor-pointer" href="https://google.com" />
+              <Image src={email} alt="cysk_email" className="absolute top-[28rem]  mt-[50px] md:mt-0  cursor-pointer" href="https://google.com" />
               <h2 className="relative top-[5.3rem] left-[6rem] text-2xl font-semibold cursor-pointer w-20 bg-clip-text text-transparent bg-grays rounded-full from-primary-400 to-secondary-600 bg-gradient-to-r" id="text2" onClick={() => copyText(textRef2)}>E-mail</h2>
               <h3 className="text-white relative top-[4.8rem] left-[6rem] text-2xl font-normal cursor-pointer" ref={textRef2}>cyskbiznes@gmail.com</h3>
             </p>
@@ -120,7 +120,7 @@
           {emailSubmitted ? (
             <p className="text-green-500 text-sm mt-2">Email sent successfully!</p>
           ) : (
-            <form className="flex flex-col bg-[#d9d9d9] shadow-lg p-5 w-3/5 h-[42rem] relative left-[20rem] rounded-2xl" onSubmit={handleSubmit}>
+            <form className="flex flex-col bg-[#d9d9d9] shadow-lg p-5 mx-auto my-[10rem] md:w-3/5 h-[42rem] sm:w-4/5  rounded-2xl text-center" onSubmit={handleSubmit}>
               <div className="mb-6">
                 <h1 className="text-4xl font-bold  text-center text-black mb-4  w-full bg-clip-text  text-transparent bg-grays rounded-full from-primary-400 to-secondary-600 bg-gradient-to-r">Contact form</h1>
                 <label

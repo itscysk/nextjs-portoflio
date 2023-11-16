@@ -13,13 +13,13 @@ const HeroSection = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
+          className="col-span-12 sm:col-span-8 place-self-center text-center sm:text-left justify-self-start "
         >
-          <h1 className=" mb-4 text-1xl  sm:text-1xl lg:text-8xl lg:leading-normal font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-            <span className="text-grays  relative top-10  lg:text-4xl  ">
-              Czesc!
+          <h1 className="mb-4 text-2xl  sm:text-3xl lg:text-5xl xl:text-8xl lg:leading-normal font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
+            <span className="text-grays sm:top-[17rem]  block absolute lg:text-7xl xl:text-4xl mx-auto text-center">
+              Witaj, jestem
             </span>
-            <br></br>
+            <br />
             <TypeAnimation
               sequence={[
                 "cysk",
@@ -34,23 +34,19 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Czesc!
-          </p>
-          <div>
-          </div>
+          {/* Add additional content if needed */}
         </motion.div>
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-span-4 place-self-center mt-4 lg:mt-0"
+          className="col-span-12 sm:col-span-4 place-self-center mt-4 sm:mt-0"
         >
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[300px] lg:h-[300px]  relative animate-avatar">
+          <div className="rounded-full bg-[#181818] w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] lg:w-[300px] lg:h-[300px] relative animate-avatar">
             <Image
               src="/images/avatar.png"
               alt="hero image"
-              className="absolute transform rounded-full  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 shadow-lg"
+              className="absolute transform rounded-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 shadow-lg"
               width={300}
               height={300}
             />
