@@ -171,7 +171,7 @@
               </div>
               {/* Dodaj reCAPTCHA do formularza */}
               <ReCAPTCHA
-                sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
+                sitekey="6Lc5xxApAAAAAE8aHqfYr3G1oeFKlr2pDZ7AnWRD"
                 onChange={handleRecaptchaChange}
               />
               <button
