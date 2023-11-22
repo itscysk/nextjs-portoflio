@@ -87,7 +87,7 @@ return (
           </h2>
 
           <h2 className="pl-[0.5rem] top-[-.5rem] relative">
-          Strona została zrobiona przy użyciu nowoczesnych technologi, takich jak next.js czy tailwindcss. <br></br> Formularz przedstawiony na stronie jest połączony wraz z discordem poprzez webhooka, dzieki czemu wysłane wiadomości bedą wysyłane na kanał na discordzie. Strona jest open-source dzieki czemu każdy ma dostęp. Strona została wykonana w pełni przez vulsa & .drozdzik. Strona nie posiada responsywności, przez co może słabo działac na telefonach. W celu uzyskania source strony zapraszam na mojego githuba, bądz na discord hell-dev'a gdzie na kanale premium jest wszystko dokładnie wyjaśnione.
+          Strona została zrobiona przy użyciu nowoczesnych technologi, takich jak next.js czy tailwindcss. <br></br> Formularz przedstawiony na stronie jest połączony wraz z discordem poprzez webhooka, dzieki czemu wysłane wiadomości bedą wysyłane na kanał na discordzie. Strona jest open-source dzieki czemu każdy ma dostęp. Strona została wykonana w pełni przez vulsa & .drozdzik. Strona nie posiada responsywności, przez co może słabo działac na telefonach. W celu uzyskania source strony zapraszam na mojego githuba, bądz na discord hell-deva gdzie na kanale premium jest wszystko dokładnie wyjaśnione.
           </h2>
 
           <h1 className="text-white font-bold text-3xl top-[1rem] pl-[0.5rem] md:top-[0.5rem] md:pl-[0.5rem] relative">
